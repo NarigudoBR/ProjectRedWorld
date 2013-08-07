@@ -20,7 +20,7 @@ public class RubiOre extends BlockOre {
 	}
 	 public int idDropped(int par1, Random par2Random, int par3)
      {
-     return main.gemRubi.itemID;
+     return main.gemRuby.itemID;
      }
      public int quantityDropped(Random random)
      {

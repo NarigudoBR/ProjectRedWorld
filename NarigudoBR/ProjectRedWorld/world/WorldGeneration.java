@@ -54,7 +54,7 @@ public class WorldGeneration implements IWorldGenerator{
                     int yCoord = random.nextInt(30);
                     int zCoord = chunkZ + random.nextInt(4);
                    
-                    (new WorldGenMinable(main.rubiOre.blockID, 9)).generate(world, random, xCoord, yCoord, zCoord);
+                    (new WorldGenMinable(main.rubyOre.blockID, 9)).generate(world, random, xCoord, yCoord, zCoord);
                 
             }
         }
